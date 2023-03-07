@@ -1,0 +1,114 @@
+\hypertarget{_t_p3_80_8cxx}{}\doxysection{TP3.0.cxx File Reference}
+\label{_t_p3_80_8cxx}\index{TP3.0.cxx@{TP3.0.cxx}}
+
+
+Etude qualitative du code c++
+
+Exemple d\textquotesingle{}ecriture qualitative de code C++ Fichier brut 21 fevrier 2023 (c) Wilfrid Lefer -\/ UPPA.  
+
+
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_t_p3_80_8cxx_adfe3aadc402f5675ffe88558bf8a8691}{USAGE}}()
+\item 
+\mbox{\Hypertarget{_t_p3_80_8cxx_a392fb874e547e582e9c66a08a1f23326}\label{_t_p3_80_8cxx_a392fb874e547e582e9c66a08a1f23326}} 
+\#define {\bfseries MAX}~10
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_t_p3_80_8cxx_acdc2de7eb5c9430c64b8006a22ed036b}{C\+\_\+\+Lit\+Entier}} ()
+\begin{DoxyCompactList}\small\item\em C\+\_\+lit\+Entier() fonction qui lit un entier en utilisant c. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_t_p3_80_8cxx_a5c9f86e721fd526e3f2b47a5e19d4839}{CPP\+\_\+\+Lit\+Entier}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{_t_p3_80_8cxx_a5c9f86e721fd526e3f2b47a5e19d4839}{CPP\+\_\+\+Lit\+Entier()}} fonction qui lit un entier en cpp. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_t_p3_80_8cxx_a2fe63c34d47418724b50f9f97105e618}{int\+\_\+compare}} (const void $\ast$v1, const void $\ast$v2)
+\begin{DoxyCompactList}\small\item\em int\+\_\+compare(const void v1,const void $\ast$v2) qui compare les elmt du tableau \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_t_p3_80_8cxx_a0ddf1224851353fc92bfbff6f499fa97}\label{_t_p3_80_8cxx_a0ddf1224851353fc92bfbff6f499fa97}} 
+int {\bfseries main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Etude qualitative du code c++
+
+Exemple d\textquotesingle{}ecriture qualitative de code C++ Fichier brut 21 fevrier 2023 (c) Wilfrid Lefer -\/ UPPA. 
+
+\begin{DoxyAuthor}{Author}
+Ramadan 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+04/03/2023 
+\end{DoxyDate}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_t_p3_80_8cxx_adfe3aadc402f5675ffe88558bf8a8691}\label{_t_p3_80_8cxx_adfe3aadc402f5675ffe88558bf8a8691}} 
+\index{TP3.0.cxx@{TP3.0.cxx}!USAGE@{USAGE}}
+\index{USAGE@{USAGE}!TP3.0.cxx@{TP3.0.cxx}}
+\doxysubsubsection{\texorpdfstring{USAGE}{USAGE}}
+{\footnotesize\ttfamily \#define USAGE(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{  \{ \(\backslash\)}
+\DoxyCodeLine{  printf(\textcolor{stringliteral}{"{}Usage: \%s [-\/c] [-\/v] [-\/n <size>]\(\backslash\)n"{}}, argv[0]); \(\backslash\)}
+\DoxyCodeLine{  exit(1); \(\backslash\)}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_t_p3_80_8cxx_acdc2de7eb5c9430c64b8006a22ed036b}\label{_t_p3_80_8cxx_acdc2de7eb5c9430c64b8006a22ed036b}} 
+\index{TP3.0.cxx@{TP3.0.cxx}!C\_LitEntier@{C\_LitEntier}}
+\index{C\_LitEntier@{C\_LitEntier}!TP3.0.cxx@{TP3.0.cxx}}
+\doxysubsubsection{\texorpdfstring{C\_LitEntier()}{C\_LitEntier()}}
+{\footnotesize\ttfamily int C\+\_\+\+Lit\+Entier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+C\+\_\+lit\+Entier() fonction qui lit un entier en utilisant c. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_t_p3_80_8cxx_a5c9f86e721fd526e3f2b47a5e19d4839}\label{_t_p3_80_8cxx_a5c9f86e721fd526e3f2b47a5e19d4839}} 
+\index{TP3.0.cxx@{TP3.0.cxx}!CPP\_LitEntier@{CPP\_LitEntier}}
+\index{CPP\_LitEntier@{CPP\_LitEntier}!TP3.0.cxx@{TP3.0.cxx}}
+\doxysubsubsection{\texorpdfstring{CPP\_LitEntier()}{CPP\_LitEntier()}}
+{\footnotesize\ttfamily int CPP\+\_\+\+Lit\+Entier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{_t_p3_80_8cxx_a5c9f86e721fd526e3f2b47a5e19d4839}{CPP\+\_\+\+Lit\+Entier()}} fonction qui lit un entier en cpp. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_t_p3_80_8cxx_a2fe63c34d47418724b50f9f97105e618}\label{_t_p3_80_8cxx_a2fe63c34d47418724b50f9f97105e618}} 
+\index{TP3.0.cxx@{TP3.0.cxx}!int\_compare@{int\_compare}}
+\index{int\_compare@{int\_compare}!TP3.0.cxx@{TP3.0.cxx}}
+\doxysubsubsection{\texorpdfstring{int\_compare()}{int\_compare()}}
+{\footnotesize\ttfamily int int\+\_\+compare (\begin{DoxyParamCaption}\item[{const void $\ast$}]{v1,  }\item[{const void $\ast$}]{v2 }\end{DoxyParamCaption})}
+
+
+
+int\+\_\+compare(const void v1,const void $\ast$v2) qui compare les elmt du tableau 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v1} & \\
+\hline
+{\em v2} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
